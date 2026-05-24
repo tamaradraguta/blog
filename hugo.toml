@@ -13,11 +13,13 @@ paginate = 10
 
 [params]
   description = "my developer journey with Spring AI and Kotlin"
-  author = "Tamara Draguta"
-  
+
   # Congo theme settings
   colorScheme = "auto"
   darkMode = true
+
+  [params.author]
+    name = "Tamara Draguta"
 
   # Social links
   [[params.socialIcons]]
