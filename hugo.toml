@@ -1,0 +1,8 @@
+baseURL = 'https://tamaradraguta.github.io/blog/'
+languageCode = 'en-us'
+title = 'My Developer Journey'
+theme = 'PaperMod'
+
+[params]
+  author = "Tamara Draguta"
+  description = "my developer journey with Spring AI and Kotlin"
