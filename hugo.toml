@@ -1,8 +1,17 @@
 baseURL = 'https://tamaradraguta.github.io/blog/'
 languageCode = 'en-us'
 title = 'My Developer Journey'
-theme = 'PaperMod'
+
+[module]
+  [[module.imports]]
+    path = "github.com/jpanther/congo"
 
 [params]
   author = "Tamara Draguta"
   description = "my developer journey with Spring AI and Kotlin"
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup.goldmark.renderer]
+  unsafe = true
