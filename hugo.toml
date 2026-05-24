@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'My Developer Journey'
 author = "Tamara Draguta"
 paginate = 10
-theme = "congo"
 
 [outputs]
   home = ["HTML", "JSON"]
